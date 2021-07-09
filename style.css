@@ -1,0 +1,46 @@
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+}
+
+.orange-color{
+    color: orange;
+}
+.div-width{
+    width: 50%;
+}
+.order-image img{
+    width: 100%;
+}
+.order-image img{
+    background: url(images/shapes/order-image-bg.png);
+    width: 100%;
+}
+/* .order-bg{
+    background-image: url(images/shapes/order-image-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: center;
+} */
+.order-discription p {
+    margin-bottom: 40px;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(red,yellow);
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 40px gray;
+
+}
