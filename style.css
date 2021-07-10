@@ -56,3 +56,26 @@ h1{
 
 
 /* order area css end */
+
+/* about area css start  */
+#about{
+    background: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
+.about-image img{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.about-discription{
+    margin-left: 70px;
+}
+.about-discription h1{}
+.about-discription p{
+    margin-bottom: 70px;
+}
+/* about area css end  */
