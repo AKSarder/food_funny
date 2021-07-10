@@ -1,35 +1,44 @@
+/* default css */
+
+.w-50{
+    width: 50%;
+}
+.mt-50{
+    margin-top: 50px;
+}
 section{
     display: flex;
     margin-bottom: 150px;
 }
+
+body{
+    font-family: 'Kaushan Script', cursive;
+}
 h1{
     font-size: 50px;
-}
-section{
-    display: flex;
+    /* font-family: 'Roboto Condensed', sans-serif; */
 }
 
+/* end of default css */
+
+
+/* order area css start */
 .orange-color{
     color: orange;
 }
-.div-width{
-    width: 50%;
-}
-.order-image img{
-    width: 100%;
-}
-.order-image img{
+.order-image{
     background: url(images/shapes/order-image-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+}
+.order-image-bg img{
     width: 100%;
 }
-/* .order-bg{
-    background-image: url(images/shapes/order-image-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: center;
-} */
 .order-discription p {
     margin-bottom: 40px;
+    font-size: 24px;
+    color: #444;
 }
 .link-button{
     text-decoration: none;
@@ -44,3 +53,6 @@ section{
     box-shadow: 10px 10px 40px gray;
 
 }
+
+
+/* order area css end */
