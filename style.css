@@ -1,9 +1,18 @@
 /* default css */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
 .clear{
     clear: both;
 }
 .mr-0{
     margin-right: 0 !important;
+}
+.pl-50{
+    padding-left: 50px;
 }
 .w-50{
     width: 50%;
@@ -12,6 +21,7 @@
     margin-top: 50px;
 }
 .flexiable-container{
+   width: 100%;
     display: flex;
     margin-bottom: 150px;
 }
@@ -106,6 +116,7 @@ h1{
     text-align: center;
     color: #444;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 .recipies-header p {
     text-align: center;
@@ -116,7 +127,7 @@ h1{
     margin-top: 30px;
 }
 .recipies-item {
-    width: 27%;
+    width: 31%;
     /* margin-left: 5%; */
     margin-right: 3%;
     box-shadow: 10px 10px 40px grey;
@@ -139,3 +150,22 @@ h1{
 }
 
 /* my recipies css area end  */
+
+/* footer part  */
+footer{
+    padding: 30px;
+    background: rgb(32, 31, 31);
+    margin-top: 100px;
+}
+footer h1 {
+    text-align: center;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 16px 0;
+}
