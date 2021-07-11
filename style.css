@@ -1,15 +1,28 @@
 /* default css */
-
+.clear{
+    clear: both;
+}
+.mr-0{
+    margin-right: 0 !important;
+}
 .w-50{
     width: 50%;
 }
 .mt-50{
     margin-top: 50px;
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 150px;
 }
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* section{
+    display: flex;
+    margin-bottom: 150px;
+} */
 
 body{
     font-family: 'Kaushan Script', cursive;
@@ -74,8 +87,55 @@ h1{
 .about-discription{
     margin-left: 70px;
 }
-.about-discription h1{}
+.about-discription h1{
+    color: #444;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 .about-discription p{
     margin-bottom: 70px;
 }
 /* about area css end  */
+
+/* my recipies css area start  */
+#my-recipies{}
+.recipies-header{
+    width: 100%;
+}
+.recipies-header h1 {
+    text-align: center;
+    color: #444;
+    font-weight: 700;
+}
+.recipies-header p {
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+}
+.recipies-wrapper{
+    margin-top: 30px;
+}
+.recipies-item {
+    width: 27%;
+    /* margin-left: 5%; */
+    margin-right: 3%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+}
+.recipies-item img{
+    width: 100%;
+    /* height: 300px; */
+}
+.recipies-item h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 30px;
+}
+.recipies-item p {
+    color: #444;
+    font-size: 16px;
+}
+
+/* my recipies css area end  */
